@@ -1,11 +1,18 @@
+# run
+
+``java -jar target/scala-2.12/DDMSpark-assembly-0.1.jar --path data/TPCH --cores 4 --partitions 100``
+
 # ddm-spark
+
 Spark example and homework code for the "Distributed Data Management" lecture.
 
 ## Setup instructions
 
-This is a basic scala project that includes spark dependencies and necessary build-configuration to build a jar that can be submitted to a spark installation via spark-submit.
+This is a basic scala project that includes spark dependencies and necessary build-configuration to build a jar that can
+be submitted to a spark installation via spark-submit.
 
 ### Checkout the project
+
 **git clone git@github.com:UMR-Big-Data-Analytics/ddm-spark.git**
 
 ### Install IntelliJ
